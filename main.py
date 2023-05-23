@@ -178,7 +178,8 @@ def main():
     if zip_dataset:
         print("")
         if (save_dir / f'{dataset_name}.zip').exists():
-            print(f"Zip file {dataset_name}.zip already exists. Press y to delete existing zip file and continue: ", end="")
+            print(f"Zip file {dataset_name}.zip already exists. "
+                  f"Press y to delete existing zip file and continue: ", end="")
             command = input()
             if command != 'y' and command != 'Y':
                 print("Exiting...")
