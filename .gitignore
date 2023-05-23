@@ -1,0 +1,8 @@
+# Directories
+.idea/
+.vscode/
+datasets/
+
+# Files
+*.jpg
+*.png
